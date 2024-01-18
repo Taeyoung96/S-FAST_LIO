@@ -1,4 +1,4 @@
-# S-FAST_LIO
+# S-FAST_LIO_docker
 ## Simplified Implementation of FAST_LIO
 
 S-FAST_LIO is a simplified implementation of FAST_LIO (Xu, Wei, et al. "Fast-lio2: Fast direct lidar-inertial odometry."), which is modified from [FAST_LIO](https://github.com/hku-mars/FAST_LIO). This code is clean and accessible. It is a reference material for SLAM beginners.The main modifications are as follows:
