@@ -16,6 +16,44 @@ S-FAST_LIO is a simplified implementation of FAST_LIO (Xu, Wei, et al. "Fast-lio
 [FAST-LIO论文解读与详细公式推导(CSDN)](https://blog.csdn.net/weixin_44923488/article/details/128103159)
 
 
+## Docker support
+
+### Set up your environment easily with Docker!  🐳  
+
+**Requires [Docker](https://www.docker.com/) and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) installed.**
+
+**1. Enter the `/docker` folder and make a docker image.**
+```
+git clone https://github.com/Taeyoung96/S-FAST_LIO_docker.git
+```
+```
+cd S-FAST_LIO_docker/docker
+```
+```
+docker build -t s-fast-lio .
+```
+
+**2. Make docker container (same path as above)**
+
+In `/docker`,  
+```
+sudo chmod -R 777 container_run.sh
+```
+```
+./container_run.sh <container_name> <image_name:tag>
+```
+**:warning: You should change {container_name}, {docker image} to suit your environment.**  
+
+```
+./container_run.sh s-fast-lio-container s-fast-lio:latest 
+```
+
+If you have successfully created the docker container, the terminal output will be similar to the below.
+```
+================S-FAST-LIO Docker Env Ready================
+root@taeyoung-cilab:/root/catkin_ws#
+```
+
 
 <div align=center>
 <img src="pic/avia_1.png" width = 70% height = 70%/>
