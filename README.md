@@ -15,6 +15,10 @@ S-FAST_LIO is a simplified implementation of FAST_LIO (Xu, Wei, et al. "Fast-lio
 
 [FAST-LIO论文解读与详细公式推导(CSDN)](https://blog.csdn.net/weixin_44923488/article/details/128103159)
 
+<div align=center>
+<img src="pic/avia_1.png" width = 70% height = 70%/>
+</div>
+
 
 ## Docker support
 
@@ -55,9 +59,6 @@ root@taeyoung-cilab:/root/catkin_ws#
 ```
 
 
-<div align=center>
-<img src="pic/avia_1.png" width = 70% height = 70%/>
-</div>
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
